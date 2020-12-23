@@ -1,0 +1,51 @@
+.menu {
+    text-align: right;
+}
+#h4 {
+    position: absolute;
+    top: 150px;
+    right: 990px;
+}
+#h5 {
+    position: absolute;
+    top: 190px;
+    right: 995px;
+}
+
+.button1 {
+    position: absolute;
+    top: 220px;
+    right: 1050px;
+}
+.button2 {
+    position: absolute;
+    top: 220px;
+    right: 900px;
+}
+.table {
+    position: absolute;
+    top: 210px;
+    right: 900px;
+}
+
+form {
+    overflow: hidden;
+}
+label {
+    float: left;
+    width: 200px;
+    padding-right: 24px;
+}
+input {
+    float: left;
+    width: calc(100% - 200px);
+}
+#button3 {
+    float: left;
+    width: calc(100% - 195px);
+  }
+#input1 {
+    float: left;
+    width: calc(100% - 195px);
+}
+

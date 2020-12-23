@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style1.css">
+  
+<head>
+  <style>
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    
+    .desc {
+      padding: 15px;
+      text-align: center;
+    }
+    </style>
+    </head>
+
+<div class="header">
+  
+  <h2 style="color:rgb(80, 42, 7)"><strong>MY PORTOFOLIO </strong></he>
+</div>
+<body>
+  
+    <style>
+  body {
+      font-family: arial, sans-serif;
+      margin: 5px;
+      background-color: rgb(236, 234, 200);
+    }
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(175, 170, 170);
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: rgb(235, 213, 115);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: rgb(97, 51, 8);
+    }
+    
+    .active {
+      background-color: rgba(163, 91, 9, 0.664);
+    }
+    </style>
+    
+    <ul>
+      <li><a class="active" href="home.html">Home</a></li>
+      <li><a class="active" href="Products.html">Products</a></li>
+      <li><a class="active" href="Galery.html">Galery</a></li>
+      <li><a class="active" href="Blog.html">Blog</a></li>
+      <li><a class="active" href="Profile.html">Profile</a></li>
+      <li><a class="active" href="My Inventory.html">My Inventory</a></li>    
+      <li style="float:right"><a class="active" href="Abouts.html">Abouts</a></li>
+    </ul><br><br>
+    
+    
+
+      <p>
+        <div class="dropdown">
+          <img src="Photo.jpg" alt="GATOT SETYOBUDI" 
+          style="float:left;width:100px;height:100px;border-radius: 100%">
+          
+          <div class="dropdown-content">
+          <img src="Photo.jpg" alt="GATOT SETYOBUDI" width="400" height="400">
+          <div style="color: #58400c"; class="desc"><b>GATOT SETYOBUDI</b>
+          </div>
+          </div>
+        </div>
+      <div style="color: #58400c" id="h4"><b>GATOT SETYOBUDI</b></div>
+      <div id="h5" style="color: rgb(137, 134, 139)"> Front End Designer</div>
+      <style>
+        .button {
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+        
+        .button1 {
+          background-color: #58400c;
+        }
+        .button2 {
+          background-color: #f5f7f8;
+        }
+        
+        </style>
+        </head>
+        <body>
+        
+        <button class="button button1">Edit</button>
+        <button class="button button2", style="color: rgb(99, 71, 10)">Resume</button>
+      </p>
+      <style>
+        table {
+          font-family: arial, sans-serif;
+          border: none;
+          width: 50%;
+          position:absolute;
+          top: 130px;
+          right: 200px;
+
+        }
+        
+        td, th {
+          border: none;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        </style>
+        </head>
+        <body>
+        
+        
+        
+        <table>
+          
+          <tr>
+            <td>Availability</td>
+            <td style="color: rgb(137, 134, 139)">Part Time</td>
+            
+          </tr>
+          <tr>
+            <td>Usia</td>
+            <td style="color: rgb(137, 134, 139)">45</td>
+            
+          </tr>
+          <tr>
+            <td>Lokasi</td>
+            <td style="color: rgb(137, 134, 139)">Tasikmalaya, Jawa Barat, Indonesia</td>
+            
+          </tr>
+          <tr>
+            <td>Pengalaman</td>
+            <td style="color: rgb(137, 134, 139)">1</td>
+            
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td style="color: rgb(137, 134, 139)">gsetyobudi@gmail.com</td>
+            
+          </tr>
+          
+        </table><br><br>
+        
+      </body>
+      
+    
+      <form action="Home.html" method="post">
+        
+        <label style="font-size: 13px" for="Name"><b>Name</b></label><br>
+        <input style="font-size: 15px" type="text" name="Name" id="Name" value="Gatot Setyobudi"/><br><br>
+        <label style="font-size: 13px" for="Role"><b>Role</b></label><br>
+        <input style="font-size: 15px" type="text" name="Role" id="Role" value="Front End Designer"/><br><br>
+        <label style="font-size: 13px" for="Availability"><b>Availability</b></label><br>
+        <input style="font-size: 15px" type="text" name="Availability" id="Availability" value="Part Time"/><br><br>
+        <label style="font-size: 13px" for="Age"><b>Age</b></label><br>
+        <input style="font-size: 15px" type="Number" name="Age" id="Age" value="45"/><br><br>
+        <label style="font-size: 13px" for="Lokasi"><b>Lokasi</b></label><br>
+        <input style="font-size: 15px" type="location" name="Lokasi" id="Lokasi" value="Tasikmalaya, Jawa Barat, Indonesia"/><br><br>
+        <label style="font-size: 13px" for="Years Experience"><b>Years Experience</b></label><br>
+        <input style="font-size: 15px" type="number" name="Years Experience" id="Years Experience" value="1"/><br><br>
+        <label style="font-size: 13px" for="Email"><b>Email</b></label><br>
+        <input style="font-size: 15px" type="email" name="Email" id="Email" value="gsetyobudi@gmail.com"/><br><br>
+        <button id="button3" style="font-size: 15px; background-color: rgb(143, 87, 15);">Submit</button><br><br>
+        <input id="input1" style="font-size: 15px; background-color: rgb(187, 150, 29);" type="reset">
+        
+        </form>
+    
+    
+      
+      
+    
+
+    </body>
+    </html>
+    
+      
+</body>
+</html>
